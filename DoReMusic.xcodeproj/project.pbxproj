@@ -13,6 +13,7 @@
 		676B07EF2AF62CE700D9AEEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676B07ED2AF62CE700D9AEEA /* Main.storyboard */; };
 		676B07F12AF62CE900D9AEEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676B07F02AF62CE900D9AEEA /* Assets.xcassets */; };
 		676B07F42AF62CE900D9AEEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676B07F22AF62CE900D9AEEA /* LaunchScreen.storyboard */; };
+		676B08012AF6389800D9AEEA /* Oxygen-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 676B08002AF6389800D9AEEA /* Oxygen-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		676B07F02AF62CE900D9AEEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		676B07F32AF62CE900D9AEEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		676B07F52AF62CE900D9AEEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676B08002AF6389800D9AEEA /* Oxygen-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +61,21 @@
 				676B07E72AF62CE700D9AEEA /* AppDelegate.swift */,
 				676B07E92AF62CE700D9AEEA /* SceneDelegate.swift */,
 				676B07EB2AF62CE700D9AEEA /* ViewController.swift */,
+				676B07FB2AF635B700D9AEEA /* Fonts */,
 				676B07ED2AF62CE700D9AEEA /* Main.storyboard */,
 				676B07F02AF62CE900D9AEEA /* Assets.xcassets */,
 				676B07F22AF62CE900D9AEEA /* LaunchScreen.storyboard */,
 				676B07F52AF62CE900D9AEEA /* Info.plist */,
 			);
 			path = DoReMusic;
+			sourceTree = "<group>";
+		};
+		676B07FB2AF635B700D9AEEA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				676B08002AF6389800D9AEEA /* Oxygen-Light.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				676B07F42AF62CE900D9AEEA /* LaunchScreen.storyboard in Resources */,
+				676B08012AF6389800D9AEEA /* Oxygen-Light.ttf in Resources */,
 				676B07F12AF62CE900D9AEEA /* Assets.xcassets in Resources */,
 				676B07EF2AF62CE700D9AEEA /* Main.storyboard in Resources */,
 			);

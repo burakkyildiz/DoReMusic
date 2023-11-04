@@ -1,24 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IbB-kA-61t">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DoReMusic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elektro Gitar Fiyatlari ve Modelleri" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GPk-lA-LzU">
+                                <rect key="frame" x="20" y="108" width="281" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="grl-dF-2UF">
+                                <rect key="frame" x="254.5" y="762" width="133.5" height="43"/>
+                                <color key="backgroundColor" name="yaziRenk3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="j14-IL-9Bh"/>
+                                </constraints>
+                                <color key="tintColor" name="yaziRenk1"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="SEPETE EKLE">
+                                    <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="12"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sepette: 291,280.45 TL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1AT-yS-2Mk">
+                                <rect key="frame" x="20" y="768" width="161" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" name="yaziRenk3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="306,611.00 TL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kxg-C5-5tP">
+                                <rect key="frame" x="20" y="788.5" width="161" height="20.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="29,238.77 TL 'den baslayan taskitlerle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4R-nr-zzn">
+                                <rect key="frame" x="20" y="812" width="199.5" height="16.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gitar3" translatesAutoresizingMaskIntoConstraints="NO" id="XEI-W6-cej">
+                                <rect key="frame" x="87" y="249.5" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="QR2-y5-zAs"/>
+                                    <constraint firstAttribute="width" constant="240" id="SpA-1Z-sSv"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gibson Custom 1961 ES-335 Reissue Semi-hollow Elektro Gitar (Murphy Lab Ultra Light Aged '60s Cherry)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gks-PY-M7k">
+                                <rect key="frame" x="20" y="504.5" width="374" height="61"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="4Rn-3S-nQW">
+                                <rect key="frame" x="12" y="625.5" width="390.5" height="27.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uID-1d-iAR">
+                                        <rect key="frame" x="0.0" y="0.0" width="121.5" height="27.5"/>
+                                        <color key="backgroundColor" name="yaziRenk3"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="12"/>
+                                        <color key="tintColor" name="yaziRenk1"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Taksit Secenekleri"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Taksit Secenekleri">
+                                            <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="11"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1QC-vH-gTu">
+                                        <rect key="frame" x="134.5" y="0.0" width="121.5" height="27.5"/>
+                                        <color key="backgroundColor" name="yaziRenk3"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="12"/>
+                                        <color key="tintColor" name="yaziRenk1"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Taksit Secenekleri"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Ucuzlarsa Bildir">
+                                            <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="11"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T1r-5h-XZ0">
+                                        <rect key="frame" x="269" y="0.0" width="121.5" height="27.5"/>
+                                        <color key="backgroundColor" name="yaziRenk3"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="12"/>
+                                        <color key="tintColor" name="yaziRenk1"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Taksit Secenekleri"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Karsilastir">
+                                            <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="11"/>
+                                        </buttonConfiguration>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="15"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KARGO: 1-3 IS GUNU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKq-Kt-5SZ">
+                                <rect key="frame" x="282.5" y="816" width="78" height="8.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="7"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="3AT-Gb-B1O">
+                                <rect key="frame" x="20" y="229.5" width="75" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8RI-hn-srh"/>
+                                    <constraint firstAttribute="width" constant="75" id="zxb-xb-flT"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kxg-C5-5tP" firstAttribute="top" secondItem="1AT-yS-2Mk" secondAttribute="bottom" constant="2.6666666666666288" id="0Mc-9r-dKc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eKq-Kt-5SZ" secondAttribute="bottom" constant="37.333333333333371" id="0hv-AC-cxL"/>
+                            <constraint firstItem="GPk-lA-LzU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="2eo-aE-fHL"/>
+                            <constraint firstItem="4Rn-3S-nQW" firstAttribute="top" secondItem="gks-PY-M7k" secondAttribute="bottom" constant="60" id="3NP-e5-fto"/>
+                            <constraint firstItem="XEI-W6-cej" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4Hy-uR-MYZ"/>
+                            <constraint firstItem="4Rn-3S-nQW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4bg-cx-g1q"/>
+                            <constraint firstItem="GPk-lA-LzU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="5Ij-qn-eV1"/>
+                            <constraint firstItem="3AT-Gb-B1O" firstAttribute="top" secondItem="GPk-lA-LzU" secondAttribute="bottom" constant="100" id="63X-uS-T29"/>
+                            <constraint firstAttribute="bottom" secondItem="grl-dF-2UF" secondAttribute="bottom" constant="91" id="DUu-fI-zul"/>
+                            <constraint firstItem="eKq-Kt-5SZ" firstAttribute="centerX" secondItem="grl-dF-2UF" secondAttribute="centerX" id="Esg-RS-p0e"/>
+                            <constraint firstItem="c4R-nr-zzn" firstAttribute="top" secondItem="kxg-C5-5tP" secondAttribute="bottom" constant="3" id="HFC-LD-Bcc"/>
+                            <constraint firstItem="gks-PY-M7k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="IEm-AR-28y"/>
+                            <constraint firstItem="eKq-Kt-5SZ" firstAttribute="centerY" secondItem="c4R-nr-zzn" secondAttribute="centerY" id="K5E-vD-ySr"/>
+                            <constraint firstItem="1AT-yS-2Mk" firstAttribute="trailing" secondItem="kxg-C5-5tP" secondAttribute="trailing" id="KPr-mi-qTe"/>
+                            <constraint firstItem="1AT-yS-2Mk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Kqo-LG-C9H"/>
+                            <constraint firstItem="grl-dF-2UF" firstAttribute="leading" secondItem="1AT-yS-2Mk" secondAttribute="trailing" constant="73.666666666666657" id="MPC-JZ-lav"/>
+                            <constraint firstItem="XEI-W6-cej" firstAttribute="top" secondItem="GPk-lA-LzU" secondAttribute="bottom" constant="120" id="No8-5l-riJ"/>
+                            <constraint firstItem="kxg-C5-5tP" firstAttribute="leading" secondItem="c4R-nr-zzn" secondAttribute="leading" id="Vnt-xG-3ui"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="grl-dF-2UF" secondAttribute="trailing" constant="26" id="au0-Hk-VOm"/>
+                            <constraint firstItem="1AT-yS-2Mk" firstAttribute="leading" secondItem="kxg-C5-5tP" secondAttribute="leading" id="j5J-bX-dzE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="c4R-nr-zzn" secondAttribute="bottom" constant="33.333333333333371" id="r95-6o-eqM"/>
+                            <constraint firstItem="gks-PY-M7k" firstAttribute="top" secondItem="XEI-W6-cej" secondAttribute="bottom" constant="15" id="tsE-sz-mnS"/>
+                            <constraint firstItem="3AT-Gb-B1O" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ykH-6t-w91"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gks-PY-M7k" secondAttribute="trailing" constant="20" id="yqK-Cg-a2Z"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="zRi-eA-jkm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="991.60305343511448" y="3.5211267605633805"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1PJ-qa-RYe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IbB-kA-61t" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bhp-x7-Rut">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="piv-31-B1a"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gq5-Ot-zSt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="64.885496183206101" y="3.5211267605633805"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Image" width="125" height="65.5"/>
+        <image name="gitar3" width="600" height="600"/>
+        <namedColor name="anaRenk">
+            <color red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk1">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk3">
+            <color red="1" green="0.5490196078431373" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
